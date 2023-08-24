@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+{% block title %}Sign-Up{% endblock %}
+{% block content %}
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="../static/css/sign-up.css">
+</head>
+<div class="fluid" style='width:500px;'>
+    <form method="POST">
+        <h3 style="position: absolute;
+         width: 329px;
+         height: 28px;
+         left: 110px;
+         top: 90px;
+         font-style: normal;
+         font-family:  Arial, Helvetica, sans-serif;
+         font-weight: bold;
+         font-size: 25px;
+         line-height: 35px;
+         display: flex;
+         align-items: flex-end;
+         color: rgba(28, 80, 102, 1);">Create your Account</h3>
+        <h4 style="position: absolute;
+         width: 329px;
+         height: 28px;
+         left: 110px;
+         top: 130px;
+         font-family: Arial, Helvetica, sans-serif;
+         font-style: normal;
+         font-weight: bold;
+         font-size: 13px;
+         display: flex;
+         align-items: flex-end;
+         color: rgba(0, 0, 0, 0.35);">
+            Already have an account? <a href="/login"
+                style="color: #19D97D; letter-spacing: 1px;  text-decoration: underline; padding-left: 10px">Login
+        </h4>
+        </a>
+        <div class="form-group1">
+            <label for="email"></label>
+            <input type="email" class="form-control1" id="email" name="email" placeholder="Enter Email"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group2">
+            <label for="firstName"></label>
+            <input type="text" class="form-control2" id="firstName" name="firstName" placeholder="Enter First Name"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group3">
+            <label for="lastName"></label>
+            <input type="text" class="form-control3" id="lastName" name="lastName" placeholder="Enter Last Name"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group4">
+            <label for="address"></label>
+            <input type="text" class="form-control4" id="address" name="address" placeholder="Enter Street Address"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group5">
+            <label for="city"></label>
+            <input type="text" class="form-control5" id="city" name="city" placeholder="Enter City Name"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group6">
+            <label for="zipcode"></label>
+            <input type="text" class="form-control6" id="zipcode" name="zipcode" placeholder="Enter Zip Code"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group7">
+            <label for="phonenumber"></label>
+            <input type="text" class="form-control7" id="phonenumber" name="phonenumber"
+                placeholder="Enter Phone Number" style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group8">
+            <label for="bankaccount"></label>
+            <input type="text" class="form-control8" id="bankaccount" name="bankaccount"
+                placeholder="Enter Bank Account Number" style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+
+        <div class="form-group9">
+            <label for="password1"></label>
+            <input type="password" class="form-control9" id="password1" name="password1" placeholder="Enter Password"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <div class="form-group10">
+            <label for="password2"></label>
+            <input type="password" class="form-control10" id="password2" name="password2" placeholder="Confirm Password"
+                style="color: rgba(0, 0, 0, 0.35);">
+        </div>
+        <br>
+        <button type="submit" style="  position: absolute;
+         width: 320px;
+         height: 50px;
+         left: 110px;
+         top: 910px;
+         background: #19D97D;
+         border-color: #19D97D;
+         box-shadow:
+         inset 0 -3em 3em rgba(0,0,0,0.1),
+         0.3em 0.3em 1em rgba(0,0,0,0.3);
+         border-radius: 10px;" class="btn btn-primary"><img src='../static/img/clipart3366677 4.png'
+                style="height: 20px; width: 20px; position: absolute; left: 100px;  ">Continue</button>
+    </form>
+    <img src="../static/img/Screenshot 2022-02-19 at 13.20.12.png" style="position: absolute;
+      width: 500px;
+      height: 1037px;
+      left: 497px;
+      top:-42px;
+      ">
+</div>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+<br><br><br><br><br>
+{% endblock %}

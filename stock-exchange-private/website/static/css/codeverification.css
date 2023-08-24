@@ -1,0 +1,49 @@
+body{
+    background-color: #f2f2f2;
+}
+.containerform{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.containerform .form{
+    background: #fff;
+    padding: 110px 35px;
+    border-radius: 5px;
+    width: 1360px;
+    height:440px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.containerform .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.containerform .form form .forget-pass{
+    margin: -15px 0 15px 0;
+}
+.containerform .form form .forget-pass a{
+   font-size: 15px;
+}
+.containerform .form form .button{
+    background: #F38E30;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.containerform .form form .button:hover{
+    background: #E49C1E;
+}
+.containerform .form form .link{
+    padding: 5px 0;
+}
+.containerform .form form .link a{
+    color: #6665ee;
+}
+.containerform .login-form form p{
+    font-size: 14px;
+}
+.containerform .row .alert{
+    font-size: 14px;
+}

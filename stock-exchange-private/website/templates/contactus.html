@@ -1,0 +1,229 @@
+{% extends "base.html" %}
+{% block title %}Contact Us{% endblock %}
+{% block content %}
+
+<head>
+  <link rel="stylesheet" href="../static/css/contactushtml.css">
+</head>
+<div class="fluid">
+  <div>
+    <form onsubmit="sendEmail(); reset(); return false;">
+      <h10 style="position: absolute;
+            width: 322px;
+            height: 52px;
+            left:410px;
+            top:  20px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 35px;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            color: #000000;">CONTACT FORM</h10>
+      <label for="name" style="position: absolute;
+            width: 322px;
+            height: 45px;
+            left:410px;
+            top:  80px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            color: #000000;">Full name <b><sup>*</sup></b></label>
+      <input class="form1" id="name" name="name" placeholder="Your name" type="name" required>
+      <label for="email" style="position: absolute;
+            width: 322px;
+            height: 45px;
+            left:640px;
+            top:  80px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            color: #000000;">Email<sup>*</sup></label>
+      <input id="email" name="email" class="form2" placeholder="Your email" type="email" required><br>
+      <label for="subject" placeholder="Subject" style="position: absolute;
+            width: 322px;
+            height: 45px;
+            left:410px;
+            top:  170px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            color: #000000;">Subject<sup>*</sup></label>
+      <input id="subject" name="subject" class="form3" placeholder="Subject" type="subject" required>
+      <label for="lname" style="position: absolute;
+            width: 322px;
+            height: 45px;
+            left:410px;
+            top:  260px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            color: #000000;">Message</label>
+      <textarea id="message" name="message" class="form4" placeholder="Write something" style="height:100px; top: 265px;
+            width: 455px;position: absolute; left:3px;" type="message" required></textarea>
+      <input type="submit" value="Send message">
+    </form>
+    <div class="fluid1">
+      <b>
+        <h11 style="position: absolute;
+            width: 329px;
+            height: 80px;
+            left: 20px;
+            top: 20px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            display: flex;
+            align-items: flex-end;
+            text-align: center;
+            color: #FFFFFF;">Let’s get in touch</h11>
+        <p style="position: absolute;
+            width: 329px;
+            height: 83px;
+            left: 20px;
+            top: 110px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            text-align: justify;
+            color: #FFFFFF;">Bully is helping thousands of people grow their trading experience. If you have any
+          questions about
+          our services, please contact us using the form or the social media below.
+        </p>
+        <img src="../static/img/Ellipse 18.png" style="margin-left:30px; margin-top:25px;">
+        <img src="../static/img/Ellipse 18.png" style="margin-left:280px; margin-top:25px;"><br>
+        <img src="../static/img/Ellipse 18.png" style="margin-left:20px; margin-top:410px;">
+        <img src="../static/img/Ellipse 18.png" style="margin-left:330px; margin-top:-15%; margin-bottom: 19px;">
+        <img src="../static/img/pngegg 1.png" style="position: absolute;
+            width: 37px;
+            height: 35px;
+            left: 30px;
+            top: 210px;
+            ">
+        <p style="position: absolute;
+            width: 253px;
+            height: 39px;
+            left: 80px;
+            top: 200px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            text-align: justify;
+            color: #FFFFFF;
+            ">Facebook: Bully_Trading</p>
+        <img src="../static/img/favpng_circle-icon-instagram-icon 1.png" style="position: absolute;
+            width: 40px;
+            height: 44px;
+            left: 28px;
+            top: 260px;
+            ">
+        <p style="position: absolute;
+            width: 253px;
+            height: 39px;
+            left: 80px;
+            top: 250px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            text-align: justify;
+            color: #FFFFFF;
+            ">Instagram: bullytrading@gmail.com</p>
+        <img src="../static/img/PngItem_202171 1.png" style="position: absolute;
+            width: 35px;
+            height: 35px;
+            left: 30px;
+            top: 310px;
+            ">
+        <p style="position: absolute;
+            width: 253px;
+            height: 39px;
+            left: 80px;
+            top: 300px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            text-align: justify;
+            color: #FFFFFF;
+            ">Email: bullytrading@gmail.com</p>
+        <img src="../static/img/pngegg copy 1.png" style="position: absolute;
+            width: 36px;
+            height: 36px;
+            left: 30px;
+            top: 360px;
+            ">
+        <p style="position: absolute;
+            width: 253px;
+            height: 39px;
+            left: 80px;
+            top: 350px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: flex-end;
+            text-align: justify;
+            color: #FFFFFF;
+            ">Phone: (000) 000-0000</p>
+    </div>
+  </div>
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail() {
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "bullyexchangetrading@gmail.com",
+      Password: "bullyexchangetr2022",
+      To: document.getElementById("email").value,
+      From: "bullyexchangetrading@gmail.com",
+      Subject: "You have sucessfully contacted us",
+      Body: "Name:" + document.getElementById("name").value
+        + "<br> Email:" + document.getElementById("email").value
+        + "<br> Mesaage:" + document.getElementById("message").value
+    }).then(
+      message => alert("Message Sent Successfully")
+    );
+  }
+
+
+</script>
+<br><br><br>
+{% endblock %}

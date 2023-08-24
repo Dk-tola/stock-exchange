@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Verification{% endblock %}
+{% block content %}
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/codeverification.css">
+</head>
+<div class="containerform">
+    <div class="row">
+        <div class="col-md-4 offset-md-4 form">
+            <form method="POST">
+                <img src="../static/img/Gmail-logo.jpg"
+                    style="height:90px; width:100px; position:absolute; top:20px; left: 180px;">
+                <br>
+                <h2 class="text-center">You received the code in your gmail</h2>
+                <br>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="code" placeholder="Enter verification code" required>
+                </div>
+                <div class="form-group">
+                    <button class="form-control button" type="submit" name="check" value="Submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+{% endblock %}

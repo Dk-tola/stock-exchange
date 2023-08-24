@@ -1,0 +1,468 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<head>
+  <title>{% block title %}Quote{% endblock %}</title>
+
+  <link rel="stylesheet" href="../static/css/quote.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="../static/css/stocksearch.css">
+  <link rel="stylesheet" href="../static/css/templatemo-space-dynamic.css">
+  <link rel="stylesheet" href="../static/css/animated.css">
+  <link rel="stylesheet" href="../static/css/owl.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+  <link href="../static/css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+    media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap" />
+  </noscript>
+  <link href="../static/css-query/bootstrap.min.css?ver=1.2.0" rel="stylesheet" />
+  <link href="../static/css-query/main.css?ver=1.2.0" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <h6 style="color:#000033;">This is Stock Search</h6>
+                <h2>You can <em>Search Stocks</em> &amp; <span style="color: #000033">MAKE</span> Profits</h2>
+                <p>Our search service provides various filtering of your choice. This is your opportunity to find the
+                  best investment for you.
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="../static/img/banner-right-image.png" alt="team meeting">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="blog" class="our-blog section">
+    <div class="s007">
+      <div class="inner-form">
+        <div class="basic-search">
+          <header class="tf-header" data-parallax="scroll"
+            data-image-src="../static/img/AdobeStock_331489342-1536x863.jpeg" style="width: 1080px; right: -100px">
+            <div style="margin-left: 70px; padding-top: 35px" class="cquery">
+              <div class="row">
+                <div class="col-md-7 col-sm-12">
+                  <h2>
+                    Search For <br />
+                    Any Stock<br />
+                    Here
+                  </h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-7 col-sm-12">
+                  <p class="mt-4">
+                    The Perfect place to satisfy your investement needs. Do not miss out
+                  </p>
+                  <p class="mt-5">
+                    <strong class="text-uppercase">Ask us anything</strong><span> - Just submit your query below and we
+                      will get in touch</span>
+                  </p>
+                </div>
+              </div>
+
+              <form method="POST">
+                <div class="row no-gutters">
+                  <div class="col-md-4 col-sm-12 tf-hh-col">
+                    <input class="mt-1 form-control" name="text" placeholder="Enter a Stock Ticker here. E.g., AAPL" />
+                  </div>
+                  <div class="col-md-3 col-sm-12">
+                    <input style="background-color: #ffb84d; border-color: #ffb84d"
+                      class="tf-header-heading-btn a btn btn-primary btn-block mt-1" type="submit" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </header>
+        </div>
+      </div>
+
+      <div class="table_wrap" style="position:absolute;  top :755px; left:260px;">
+        <div class="table_header">
+          <ul>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Company Name</span>
+                </div>
+                <div class="phone">
+                  <span>Price</span>
+                </div>
+
+                <div class="status">
+                  <span>Description</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="table_body">
+          <ul>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Meta</span>
+                </div>
+                <div class="phone">
+                  <span>{{facebook}}</span>
+                </div>
+                <div class="issue">
+                  <span>Internet Content & Informatio</span>
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Apple</span>
+                </div>
+                <div class="phone">
+                  <span>{{apple}}</span>
+                </div>
+                <div class="issue">
+                  <span>Consumer Electronics</span>
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Amazon</span>
+                </div>
+                <div class="phone">
+                  <span>{{amazon}}</span>
+                </div>
+                <div class="issue">
+                  <span>Internet Retail</span>
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Netflix</span>
+                </div>
+                <div class="phone">
+                  <span>{{netflix}}</span>
+                </div>
+                <div class="issue">
+                  <span>Entertainment</span>
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Google</span>
+                </div>
+                <div class="phone">
+                  <span>{{google}}</span>
+                </div>
+                <div class="issue">
+                  <span>Internet Content & Information</span>
+                </div>
+
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Tesla</span>
+                </div>
+                <div class="phone">
+                  <span>{{tesla}}</span>
+                </div>
+                <div class="issue">
+                  <span>Auto Manufacturers</span>
+                </div>
+
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Microsoft</span>
+                </div>
+                <div class="phone">
+                  <span>{{microsoft}}</span>
+                </div>
+                <div class="issue">
+                  <span>Software—Infrastructure</span>
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Nvidia</span>
+                </div>
+                <div class="phone">
+                  <span>{{nvidia}}</span>
+                </div>
+                <div class="issue">
+                  <span>Semiconductors</span>
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="item">
+                <div class="name">
+                  <span>Intel</span>
+                </div>
+                <div class="phone">
+                  <span>{{intel}}</span>
+                </div>
+                <div class="issue">
+                  <span>Semiconductors</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="about" class="about-us section">
+
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+      <br><br><br><br>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="wrapper3">
+              <div class="header" style="background-color:#F0F0F0;">
+                <div class="title" style="padding-left: 40px; color:black">
+                  Search our featured list
+                </div>
+                <script src="scripts.js"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="services" class="our-services section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="left-image">
+                <img src="../static/img/iPhone 13.png" alt="" style="padding-right: 90px;">
+              </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="section-heading">
+                <h2>Grow your stock search experience with our <em>STOCK</em> service &amp; <span
+                    style="color:#0099ff">FRIENDLY</span>Environment</h2>
+                <p>Everyone has financial goals. Investing in assets offers you the potential to grow your money at a
+                  quicker pace than would be possible if you only put your money in building your stock portfolio.</p>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="first-bar progress-skill-bar">
+                    <h4>Have a positivie impact</h4>
+                    <span>84%</span>
+                    <div class="filled-bar"></div>
+                    <div class="full-bar"></div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="second-bar progress-skill-bar">
+                    <h4>Benefitng from compounding</h4>
+                    <span>88%</span>
+                    <div class="filled-bar"></div>
+                    <div class="full-bar"></div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="third-bar progress-skill-bar">
+                    <h4>Learn how to communicate in this sphere</h4>
+                    <span>94%</span>
+                    <div class="filled-bar"></div>
+                    <div class="full-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div id="portfolio" class="our-portfolio section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+              <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                <h2>See What Our services <em>Offer</em> &amp; What you will <span style="color:#0099ff;">Gain</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                <div class="hidden-content">
+                  <h4>Positive impact</h4>
+                  <p>Your learn how to find the most suitable investement</p>
+                </div>
+                <div class="showed-content">
+                  <img src="../static/img/portfolio-image.png">
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                <div class="hidden-content">
+                  <h4>Better experience</h4>
+                  <p>Searching stocks will give you a new way of understanding how everything works</p>
+                </div>
+                <div class="showed-content">
+                  <img src="../static/img/portfolio-image.png">
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="hidden-content">
+                  <h4>Stock Analysis</h4>
+                  <p>You can the statistics of indivisual stocks</p>
+                </div>
+                <div class="showed-content">
+                  <img src="../static/img/portfolio-image.png">
+                </div>
+              </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+
+              <div class="item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+                <div class="hidden-content">
+                  <h4>Buy a stock</h4>
+                  <p>You will learn how to buy a stock safely</p>
+                </div>
+                <div class="showed-content">
+                  <img src="../static/img/portfolio-image.png">
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <script>
+        const input = document.getElementById("search-input");
+        const searchBtn = document.getElementById("search-btn");
+
+        const expand = () => {
+          searchBtn.classList.toggle("close");
+          input.classList.toggle("square");
+        };
+
+        searchBtn.addEventListener("click", expand);
+
+      </script>
+
+      <script type="text/javascript">
+        var search_input = document.querySelector("#search_input");
+
+        search_input.addEventListener("keyup", function (e) {
+          var span_items = document.querySelectorAll(".table_body .name span");
+          var table_body = document.querySelector(".table_body ul");
+          var search_item = e.target.value.toLowerCase();
+
+          span_items.forEach(function (item) {
+            if (item.textContent.toLowerCase().indexOf(search_item) != -1) {
+              item.closest("li").style.display = "block";
+            }
+            else {
+              item.closest("li").style.display = "none";
+            }
+          })
+
+        });
+      </script>
+      <!-- Scripts -->
+      <script src="../static/extention/choices.js"></script>
+      <script src="../static/js/main.js"></script>
+      <script>
+        const customSelects = document.querySelectorAll("select");
+        const deleteBtn = document.getElementById('delete')
+        const choices = new Choices('select',
+          {
+            searchEnabled: false,
+            removeItemButton: true,
+            itemSelectText: '',
+          });
+        for (let i = 0; i < customSelects.length; i++) {
+          customSelects[i].addEventListener('addItem', function (event) {
+            if (event.detail.value) {
+              let parent = this.parentNode.parentNode
+              parent.classList.add('valid')
+              parent.classList.remove('invalid')
+            }
+            else {
+              let parent = this.parentNode.parentNode
+              parent.classList.add('invalid')
+              parent.classList.remove('valid')
+            }
+          }, false);
+        }
+        deleteBtn.addEventListener("click", function (e) {
+          e.preventDefault()
+          const deleteAll = document.querySelectorAll('.choices__button')
+          for (let i = 0; i < deleteAll.length; i++) {
+            deleteAll[i].click();
+          }
+        });
+
+      </script>
+      <script src="../static/js/jquery-2.1.1.js"></script>
+      <script src="..static/js/jquery.mixitup.min.js"></script>
+      <script src="../static/js/main.js"></script> <!-- Resource jQuery -->
+      <script src="../static/js/1.min.js"></script>
+      <script src="../static/modernizr.js"></script> <!-- Modernizr -->
+      <script src="../static/js/bootstrap.bundle.min.js"></script>
+      <script src="../static/js/owl-carousel.js"></script>
+      <script src="../static/js/animation.js"></script>
+      <script src="../static/js//imagesloaded.js"></script>
+      <script src="../static/js/templatemo-custom.js"></script>
+
+</body>
+{% endblock %}

@@ -1,0 +1,432 @@
+
+
+#wrap {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header__container {
+	position: fixed;
+
+	top: 0px;
+	margin-right: 20px;
+	width: 100.9%
+}
+
+.menu-item menu-item-6994 {
+
+	padding-top: 20px;
+	left: 190px;
+}
+
+.menu-item-has-children {
+
+	padding-top: 20px;
+	left: 170px;
+}
+
+.menu-item-type-custom {
+	padding-top: 20px;
+	left: 170px;
+}
+
+.menu-item-object-custom {
+	padding-top: 20px;
+	left: 140px;
+}
+
+
+.logo-image {
+	position: fixed;
+	top: 0px;
+}
+
+.reg {
+
+	padding-left: 180.5px;
+
+
+}
+
+.log {
+	padding-top: 15px;
+	padding-left: -10px;
+	padding-right: 10px;
+
+}
+
+.site-navigation {
+
+	height: 20px;
+
+
+}
+
+.site-footer {
+	background-color: #010927;
+	padding: 45px 0 20px;
+	margin-top: -5%;
+	font-size: 15px;
+	line-height: 24px;
+	color: #737373;
+	width: 1440px;
+	margin-right: 100px;
+	margin-left: -150px;
+}
+
+.site-footer hr {
+	border-top-color: #bbb;
+	opacity: 0.5
+}
+
+.site-footer hr.small {
+	margin: 20px 0
+}
+
+.site-footer h6 {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	letter-spacing: 2px
+}
+
+.site-footer a {
+	color: #737373;
+}
+
+.site-footer a:hover {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+.footer-links {
+	padding-left: 0;
+	list-style: none
+}
+
+.footer-links li {
+	display: block
+}
+
+.footer-links a {
+	color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+.footer-links.inline li {
+	display: inline-block
+}
+
+.site-footer .social-icons {
+	text-align: right
+}
+
+.site-footer .social-icons a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 6px;
+	margin-right: 0;
+	border-radius: 100%;
+	background-color: #33353d
+}
+
+.copyright-text {
+	margin: 0
+}
+
+@media (max-width:991px) {
+	.site-footer [class^=col-] {
+		margin-bottom: 30px
+	}
+}
+
+@media (max-width:767px) {
+	.site-footer {
+		padding-bottom: 0
+	}
+
+	.site-footer .copyright-text,
+	.site-footer .social-icons {
+		text-align: center
+	}
+}
+
+.social-icons {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none
+}
+
+.social-icons li {
+	display: inline-block;
+	margin-bottom: 4px
+}
+
+.social-icons li.title {
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: #96a2b2;
+	font-weight: 700;
+	font-size: 13px
+}
+
+.social-icons a {
+	background-color: #eceeef;
+	color: #818a91;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 44px;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	margin-right: 8px;
+	border-radius: 100%;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+	color: #fff;
+	background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+	line-height: 34px;
+	height: 34px;
+	width: 34px;
+	font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+	background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+	background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+	background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+	background-color: #ea4c89
+}
+
+.img {
+	width: 35px;
+	height: 35px;
+	margin-top: 20px;
+}
+
+#Mainpage {
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: white;
+	min-width: 10%;
+}
+
+.Traders:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.Trader {
+	float: left;
+	width: 33.3%;
+	height: 200px;
+	padding: 10px;
+	color: black;
+}
+
+.Trader a {
+	float: none;
+	color: white;
+	background-color: #e6e6e6;
+	padding: 2%;
+	height: 93%;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.Trader a:hover {
+	background-color: #cccccc;
+}
+
+#Info {
+	color: black;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#Info li {
+	float: left;
+	padding: 4%;
+}
+
+#Rank {
+	float: right;
+	padding: 1%;
+	margin-top: 2%;
+	padding-right: 2%;
+	color: #cc6600;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#Interact a {
+	background-color: #000033;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+}
+
+#Interact a:hover {
+	background-color: rgb(87, 87, 87);
+}
+
+#Follow {
+	display: none;
+}
+
+#Followbtn {
+	float: left;
+}
+
+#Stats {
+	display: none;
+}
+
+#Statsbtn {
+	float: right;
+}
+
+#Title_2 {
+	margin-top: 8%;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#Mainpage td,
+#Mainpage th {
+	text-align: left;
+	padding: 1%;
+	padding-bottom: 3%;
+}
+
+tr:nth-child(even) {
+	background-color: #ffc266;
+}
+
+#Rank2 {
+	padding: 2%;
+	margin-top: 4%;
+	margin-bottom: -6%;
+	float: left;
+	color: #cc6600;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#Bottom {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin-top: 5%;
+	bottom: 0%;
+	background-color: grey;
+	width: 100%;
+}
+
+#Right {
+	float: right;
+	width: 355px;
+	bottom: 24%;
+	margin-top: 2%;
+	text-align: center;
+	list-style: none;
+}
+
+#Right a {
+	padding: 1%;
+}
+
+#Right p a {
+	float: right;
+}
+
+#Line {
+	border-top: 1px solid black;
+}
+
+#Bottom h3 {
+	display: block;
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+	color: black;
+}
+
+#Right a {
+	color: black;
+}
+
+#Bottom h5 {
+	display: block;
+	font-size: .83em;
+	margin-top: 1.67em;
+	margin-bottom: 1.67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+#Bottom h6 {
+	display: block;
+	font-size: .67em;
+	margin-top: 2.33em;
+	margin-bottom: .33em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+#Bottom h7 {
+	display: block;
+	font-size: .5em;
+	margin-top: 2.67em;
+	margin-bottom: .67em;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+

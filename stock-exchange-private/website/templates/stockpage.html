@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block title %}Stock Page{% endblock %}
+{% block content %}
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta http-equiv="refresh" content="120">
+  <link rel="stylesheet" href="../static/css/stockpage.css">
+</head>
+
+<body style="background-color: #010927">
+  <header>
+    <div class="header-content" style="padding-top: 5%">
+      <div class="header-content-inner">
+        <h1 class="center" style="font-size: 50px; color: white">
+          {{ text2}}
+        </h1>
+        <h1 class="center" style="font-size: 50px; color: white">
+          {{"(" + text3 + ")"}}
+        </h1>
+        <h1 class="center" style="font-size: 30px; color: white">
+          ${{ text }}
+        </h1>
+      </div>
+    </div>
+  </header>
+  <!-- <h1 class="center">{{ text2 }}</h1> -->
+  <!-- <h1 class="center">{{ text }}</h1> -->
+  <br />
+  <br />
+  <div class="chart">
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div id="tradingview_7e737"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+      <script type="text/javascript">
+        new TradingView.widget({
+          width: 980,
+          height: 610,
+          // symbol: "NASDAQ:{{text3}}",
+          symbol: "{{text3}}",
+          interval: "D",
+          timezone: "Etc/UTC",
+          theme: "dark",
+          style: "1",
+          locale: "en",
+          toolbar_bg: "#f1f3f6",
+          enable_publishing: false,
+          allow_symbol_change: true,
+          container_id: "tradingview_7e737",
+        });
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+  </div>
+  <br />
+  <br />
+  <div class="btn-group" style="margin-left: 40%; margin-right: 60%">
+    <button onclick="window.location.href = '/buy';">Buy</button>
+    <button onclick="window.location.href = '/sell';">Sell</button>
+    <button onclick="window.location.href = '/newsandinsights';">News</button>
+  </div>
+
+  <script>
+    setInterval(                               //Periodically 
+      function () {
+        $.getJSON(                            //Get some values from the server
+          $SCRIPT_ROOT + '/get_values',      // At this URL
+          {},                                // With no extra parameters
+          function (data)                     // And when you get a response
+          {
+            $("#result").text(data.result);  // Write the results into the 
+            // #result element
+          });
+      },
+      500);                                    // And do it every 500ms
+  </script>
+</body>
+{% endblock %}

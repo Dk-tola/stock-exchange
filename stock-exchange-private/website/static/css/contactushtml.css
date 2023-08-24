@@ -1,0 +1,153 @@
+.header__container{
+    position: fixed; 
+    top: 0px; 
+    margin-right:20px;
+    width: 100.9%
+}
+.menu-item menu-item-6994 {
+    padding-top: 20px;
+    left: 190px;
+}
+
+.menu-item-has-children{
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-type-custom{
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-object-custom{
+    padding-top: 20px;
+    left: 140px;
+}
+
+
+.logo-image{
+    position: fixed; 
+    top: 0px; 
+}
+
+.reg{
+  padding-left: 180.5px;
+
+}
+
+.log{
+    padding-top: 15px;
+    padding-left: -10px;
+    padding-right: 10px;
+ 
+}
+
+.site-navigation{
+    height: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F0F0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=name],
+select,
+textarea {
+    width: 25%;
+    height: 13%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 140px;
+    margin-left: 410px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 13px;
+}
+
+input[type=email],
+select,
+textarea {
+    width: 25%;
+    height: 13%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 13px;
+}
+
+input[type=subject],
+select,
+textarea {
+    width: 51%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 410px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 13px;
+}
+
+input[type=submit] {
+    width: 12%;
+    height: 40px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 11px;
+    border: none;
+    margin-top: 158px;
+    margin-left: 415px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: #19D97D;
+
+
+
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.fluid {
+    position: absolute;
+    width: 900px;
+    height: 500px;
+    left: 290px;
+    top: 190px;
+
+    background: rgba(255, 255, 255, 0.97);
+
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.fluid1 {
+    position: absolute;
+    width: 380px;
+    height: 500px;
+    left: -1px;
+    top: 0.1px;
+
+    background: rgba(36, 182, 94, 0.59);
+}

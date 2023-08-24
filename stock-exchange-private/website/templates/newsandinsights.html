@@ -1,0 +1,167 @@
+{% extends "base.html" %}
+{% block title %}News and Insights{% endblock %}
+{% block content %}
+
+<head>
+    <title>News and Insights</title>
+    <link rel="stylesheet" href="../static/css/newsandinsights.css">
+
+<body style="background-color:#F0F0F0;">
+    <div class="Featured">
+        <h2>News & Insights</h2>
+        <h3>Featured Articles</h3>
+        <br>
+        <div class="line"></div>
+        <div class="blog-card">
+            <input type="radio" name="select" id="tap-1" checked>
+            <input type="radio" name="select" id="tap-2">
+            <input type="radio" name="select" id="tap-3">
+            <input type="checkbox" id="imgTap">
+            <div class="sliders">
+                <label for="tap-1" class="tap tap-1"></label>
+                <label for="tap-2" class="tap tap-2"></label>
+                <label for="tap-3" class="tap tap-3"></label>
+            </div>
+            <div class="inner-part">
+                <label for="imgTap" class="img">
+                    <img class="img-1" src="../static/img/AAPL.jpeg">
+                </label>
+                <div class="content content-1">
+                    <br>
+                    <span>23rd April 2022</span>
+                    <div class="title">
+                        Apple Just Issued A Stunning $12 Billion Blow To Facebook
+                    </div>
+                    <div class="text">
+                        Apple’s new privacy features continue to hit Facebook as iPhone users opt out from tracking on
+                        their devices.
+                    </div>
+                    <button
+                        onclick=" window.open('https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py','_blank')">Read
+                        more
+                    </button>
+                </div>
+            </div>
+            <div class="inner-part">
+                <label for="imgTap" class="img">
+                    <img class="img-2" src="../static/img/amazon.jpeg">
+                </label>
+                <div class="content content-2">
+                    <br>
+                    <span>21st January 2022</span>
+                    <div class="title">
+                        The Bag Is Heavy Going Into Q1 Earnings
+                    </div>
+                    <div class="text">
+                        TextGiven the significant headwinds recently, the market will be watching Amazon's Q1
+                        performance closely.
+                    </div>
+                    <button
+                        onclick=" window.open('https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py','_blank')">Read
+                        more
+                    </button>
+                </div>
+            </div>
+            <div class="inner-part">
+                <label for="imgTap" class="img">
+                    <img class="img-3" src="../static/img/TSLA.jpeg">
+                </label>
+                <div class="content content-3">
+                    <br>
+                    <span>23rd March 2022</span>
+                    <div class="title">
+                        Elon Musk says he confronted Bill Gates about shorting Tesla
+                    </div>
+                    <div class="text">
+                        In a tweet on Friday, the Tesla CEO admitted that he asked Gates if he was short-selling shares
+                        of the electric carmaker.
+                    </div>
+                    <button
+                        onclick=" window.open('https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py','_blank')">Read
+                        more
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="MainPg">
+        <p><a href="{{ url_for('views.home') }}" style="color: #19D97D;">Home</a> > News & Insights</p>
+        <br>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../static/img/get-paid-to-write-financial-articles.jpg" style="width:700px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <p style="margin-top: 20px;">24 April 2022</p>
+                    <p>Personal Finance: How Do You Earn Long-Term Savings in 2022?</p>
+                    <p>Savers are about to learn one painful and one surprising lesson about interest rates and banks.
+                    </p>
+                    <button
+                        onclick=" window.open('https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py','_blank')">Read
+                        more
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../static/img/WordCloud.PNG" style="width:700px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <p style="margin-top: 20px;">22 March 2022</p>
+                    <p>What’s next for the stock market as investors grapple with Fed near ‘peak hawkishness’ </p>
+                    <p>Investors will watch for another gauge of U.S. inflation in the week ahead after the stock market
+                        was rattled by the Federal Reserve ramping up its hawkish tone and suggesting large interest
+                        rate hikes are coming to get an overheating economy under control.
+                    </p>
+                    <button
+                        onclick=" window.open('https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py','_blank')">Read
+                        more
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../static/img/48440130557_578c09b89f_b.jpg" style="width:700px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                    <p style="margin-top: 20px;">13 April 2022</p>
+                    <p>Sanctions on Russia: what are the ramifications of this new trade war?</p>
+                    <p>Following the invasion of Ukraine, Western sanctions have targeted Russia’s trade, companies,
+                        individuals and financial sector. The measures, which are far more wide-ranging than those
+                        following the annexation of Crimea in 2014, raise big legal and economic issues for the world
+                        trading system.
+                    </p>
+                    <button
+                        onclick=" window.open('https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py','_blank')">Read
+                        more
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py" target="_blank"
+                id="investing" style="background-color:#001a00; ">Investing</a>
+            <a href="https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py" target="_blank"
+                id="insights" style="background-color:#003300; ">Marketing Insights</a>
+            <a href="https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py" target="_blank"
+                id="stocks" style="background-color: #004d00;">Stocks</a>
+            <a href="https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py" target="_blank"
+                id="trading" style="background-color: #006600;">Trading</a>
+            <a href="https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py" target="_blank"
+                id="updates" style="background-color: #008000;">Bully Updates</a>
+            <a href="https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py" target="_blank"
+                id="profesional" style="background-color: #009900;">Profesional Traders</a>
+            <a href="https://share.streamlit.io/qosz/streamlit-stock-exchange/main/dashboard.py" target="_blank"
+                id="crypto" style="background-color: #00b300;">Crypto</a>
+        </div>
+    </div>
+    <br><br><br><br>
+</body>
+
+</html>
+{% endblock %}

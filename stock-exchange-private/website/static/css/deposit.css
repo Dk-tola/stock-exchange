@@ -1,0 +1,140 @@
+.header__container {
+    position: fixed;
+    top: 0px;
+    margin-right: 1000px;
+    width: 100.9%;
+}
+
+.menu-item menu-item-6994 {
+    padding-top: 20px;
+    left: 190px;
+}
+
+.menu-item-has-children {
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-type-custom {
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-object-custom {
+    padding-top: 20px;
+    left: 140px;
+}
+
+.logo-image {
+    position: fixed;
+    top: 0px;
+}
+
+.site-navigation {
+    height: 20px;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+:root {
+    --primary-color: rgb(11, 78, 179);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Global Stylings */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Form */
+.form {
+    width: clamp(320px, 30%, 430px);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 1.5rem;
+    position: absolute;
+    left: 820px;
+    background-color: white;
+    opacity: 1px;
+    height: 410px;
+    width: 500px;
+}
+
+.form-step {
+    display: none;
+    transform-origin: top;
+    animation: animate 0.5s;
+    height: 275px;
+}
+
+.form-step-active {
+    display: block;
+}
+
+.input-group {
+    margin: 2rem 0;
+}
+
+@keyframes animate {
+    from {
+    transform: scale(1, 0);
+    opacity: 0;
+    }
+
+    to {
+    transform: scale(1, 1);
+    opacity: 1;
+    }
+}
+
+/* Button */
+.btns-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.btn {
+    padding: 0.75rem;
+    display: block;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #f3f3f3;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+}

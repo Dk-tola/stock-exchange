@@ -1,0 +1,144 @@
+.header__container{
+    position: fixed; 
+    top: 0px; 
+    margin-right:20px;
+    width: 100.9%
+}
+.menu-item menu-item-6994 {
+
+    padding-top: 20px;
+    left: 190px;
+}
+
+.menu-item-has-children{
+
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-type-custom{
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-object-custom{
+    padding-top: 20px;
+    left: 140px;
+}
+
+
+.logo-image{
+    position: fixed; 
+    top: 0px; 
+}
+
+.reg{
+  
+    padding-left: 180.5px;
+    padding-top:15px;
+
+
+}
+
+.log{
+    padding-top: 15px;
+    padding-left: -10px;
+    padding-right: 10px;
+ 
+}
+
+.site-navigation{
+
+  height: 20px;
+  
+ 
+
+}
+.img {
+    position: absolute;
+    width: 800px;
+    height: 790px;
+    left: 580px;
+    top: 30px;
+}
+
+.img1 {
+    position: absolute;
+    width: 670px;
+    height: 784px;
+    left: -0.3%;
+    top: 820px;
+
+    background: url(Data-Collection-Article-2020062414331.png);
+}
+
+.button1 {
+    position: absolute;
+    width: 145px;
+    box-shadow: none;
+    height: 50px;
+    left: 200px;
+    top: 600px;
+    background: rgba(25, 217, 125, 0.9);
+    border-radius: 40px;
+    color: #FFFFFF;
+    border-color: rgba(25, 217, 125, 0.9);
+}
+
+
+.sub {
+    position: absolute;
+    width: 514px;
+    height: 84px;
+    left: 200px;
+    top: 480px;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    color: rgba(55, 157, 133, 0.81);
+}
+
+.container-fluid {
+    background-color: #0B142C;
+    width: 157%;
+    /* width: 1720px; */
+    margin-right: 40%;
+    margin-left: -40%;
+    height: 721px;
+}
+
+.container-fluid1 {
+    background-color: #070012;
+    width: 157%;
+    margin-right: 40%;
+    margin-left: -40%;
+    height: 810px;
+    margin-bottom: -61%;
+}
+
+.head1 {
+    position: absolute;
+    width: 601px;
+    height: 176px;
+    left: 190px;
+    top: 290px;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 88px;
+    display: flex;
+    align-items: flex-end;
+
+    background: -webkit-linear-gradient(180deg, rgba(0, 230, 174, 0.63) 11.46%, rgba(0, 194, 255, 0.582674) 90.25%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}

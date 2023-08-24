@@ -1,0 +1,392 @@
+.header__container {
+    position: fixed;
+    top: 0px;
+    margin-right: 20px;
+    width: 100.9%
+}
+
+.menu-item menu-item-6994 {
+
+    padding-top: 20px;
+    left: 190px;
+}
+
+.menu-item-has-children {
+
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-type-custom {
+    padding-top: 20px;
+    left: 170px;
+}
+
+.menu-item-object-custom {
+    padding-top: 20px;
+    left: 140px;
+}
+
+
+.logo-image {
+    position: fixed;
+    top: 0px;
+}
+
+.reg {
+
+    padding-left: 180.5px;
+
+
+}
+
+.log {
+    padding-top: 15px;
+    padding-left: -10px;
+    padding-right: 10px;
+
+}
+
+.site-navigation {
+
+    height: 20px;
+
+
+
+}
+
+.text-justify {
+    color: #737373;
+}
+
+.site-footer {
+    background-color: #010927;
+    padding: 45px 0 20px;
+    margin-top: 10%;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+    margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+    padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+    text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600
+    }
+}
+
+.text-justify {
+    color: #737373;
+    font-size: 13px;
+    font-family: Open Sans;
+}
+
+.copyright-text {
+    color: #737373;
+    font-size: 13px;
+    font-family: Open Sans;
+}
+
+.footer-links {
+    color: #737373;
+    font-size: 13px;
+    font-family: Open Sans;
+}
+
+.wrapper3 .header {
+    background: #29a5d8;
+    width: 420%;
+    padding-right: 140px;
+    padding-left: 20px;
+    margin-right: 240px;
+    margin-left: -175px;
+    margin-top: 30%;
+
+
+}
+
+.wrapper3 .title {
+    padding: 50px 0;
+    text-align: center;
+    font-weight: 30px;
+    font-size: 32px;
+    color: black;
+
+}
+
+.wrapper3 .search_box {
+    max-width: 1000px;
+    background: #29a5d8;
+    margin: 0 auto;
+    padding: 25px 0 50px;
+    border-radius: 3px;
+    color: black;
+
+}
+
+.wrapper3 .search_box input {
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 100%;
+    outline: none;
+    padding: 15px;
+    margin-left: 40px;
+    background: transparent;
+    color: black;
+    font-size: 16px;
+}
+
+::placeholder {
+
+    color: black;
+}
+
+.wrapper3 .search_box input:focus {
+    border-bottom: 2px solid #fff;
+}
+
+.table_wrap {
+    width: 1300px;
+    margin: 100px auto 0;
+    padding-right: 190px;
+}
+
+.table_wrap ul li .item {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 15px 0;
+    height: 50px;
+}
+
+.table_wrap ul li .item .name,
+.table_wrap ul li .item .phone {
+    width: 20%;
+    padding: 0 15px;
+}
+
+.table_wrap ul li .item .status {
+    width: 15%;
+    padding: 0 15px;
+}
+
+.table_wrap ul li .item .issue {
+    width: 45%;
+    padding: 0 15px;
+}
+
+.table_wrap ul li .item .issue span,
+.table_wrap ul li .item .name span {
+    width: 90%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table_header ul li .item {
+    border-bottom: 2px solid #eaeaea;
+    font-weight: 600;
+}
+
+.table_body {
+    height: 330px;
+    overflow: auto;
+}
+
+.table_body ul li .item {
+    border-bottom: 1px solid #efefef;
+}
+
+.table_body ul li .item .status span {
+    padding: 5px 20px;
+    border-radius: 25px;
+    max-width: 115px;
+    display: inline-block;
+}
+
+.table_body ul li .item .open {
+    background: #e5edfa;
+    color: #5a8ee4;
+}
+
+.table_body ul li .item .fixed {
+    background: #cff1f0;
+    color: #0dbeb6;
+}
+
+.table_body ul li .item .closed {
+    background: #fedfe5;
+    color: #ff89a0;
+}
+
+.table_body ul li .item .hold {
+    background: #fff0db;
+    color: #f59d39;
+}
+
+.table_body ul li .item .reopened {
+    background: #d6f2ff;
+    color: #29a5d8;
+}
+
+.table_body ul li .item .canceled {
+    background: #ffdbd6;
+    color: #e87060;
+}
+
+.about {
+    margin-top: 26px;
+}

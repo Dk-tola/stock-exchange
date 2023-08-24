@@ -1,0 +1,664 @@
+
+
+.header__container {
+	position: fixed;
+	top: 0px;
+	margin-right: 20px;
+	width: 100.9%
+}
+
+.menu-item menu-item-6994 {
+	padding-top: 20px;
+	left: 190px;
+}
+
+.menu-item-has-children {
+	padding-top: 20px;
+	left: 170px;
+}
+
+.menu-item-type-custom {
+	padding-top: 20px;
+	left: 170px;
+}
+
+.menu-item-object-custom {
+	padding-top: 20px;
+	left: 140px;
+}
+
+.logo-image {
+	position: fixed;
+	top: 0px;
+}
+
+.reg {
+	padding-left: 180.5px;
+}
+
+.log {
+	padding-top: 15px;
+	padding-left: -10px;
+	padding-right: 10px;
+}
+
+.site-navigation {
+	height: 20px;
+}
+
+.text-justify {
+	color: #737373;
+}
+
+.well {
+	height: 320px;
+}
+
+.table-scroll tbody {
+	position: absolute;
+	overflow-y: scroll;
+	height: 250px;
+}
+
+.table-scroll tr {
+	width: 100%;
+	table-layout: fixed;
+	display: inline-table;
+}
+
+/* Full-width input fields */
+.cvv {
+	width: 20%;
+	padding: 12px 20px;
+	margin-left: 60%;
+	margin: 40px 0;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=text] {
+	width: 40%;
+	padding: 12px 20px;
+	margin: 10px 0;
+	margin-left: 50%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+	background-color: #04AA6D;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+.site-footer {
+	background-color: #010927;
+	padding: 30px 0 10px;
+	margin-top: 10%;
+	font-size: 15px;
+	line-height: 24px;
+	color: #737373;
+}
+
+.site-footer hr {
+	border-top-color: #bbb;
+	opacity: 0.5
+}
+
+.site-footer hr.small {
+	margin: 20px 0
+}
+
+.site-footer h6 {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	letter-spacing: 2px
+}
+
+.site-footer a {
+	color: #737373;
+}
+
+.site-footer a:hover {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+.footer-links {
+	padding-left: 0;
+	list-style: none
+}
+
+.footer-links li {
+	display: block
+}
+
+.footer-links a {
+	color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+.footer-links.inline li {
+	display: inline-block
+}
+
+.site-footer .social-icons {
+	text-align: right
+}
+
+.site-footer .social-icons a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 6px;
+	margin-right: 0;
+	border-radius: 100%;
+	background-color: #33353d
+}
+
+.copyright-text {
+	margin: 0
+}
+
+@media (max-width:991px) {
+	.site-footer [class^=col-] {
+		margin-bottom: 30px
+	}
+}
+
+@media (max-width:767px) {
+	.site-footer {
+		padding-bottom: 0
+	}
+
+	.site-footer .copyright-text,
+	.site-footer .social-icons {
+		text-align: center
+	}
+}
+
+.social-icons {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none
+}
+
+.social-icons li {
+	display: inline-block;
+	margin-bottom: 4px
+}
+
+.social-icons li.title {
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: #96a2b2;
+	font-weight: 700;
+	font-size: 13px
+}
+
+.social-icons a {
+	background-color: #eceeef;
+	color: #818a91;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 44px;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	margin-right: 8px;
+	border-radius: 100%;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+	color: #fff;
+	background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+	line-height: 34px;
+	height: 34px;
+	width: 34px;
+	font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+	background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+	background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+	background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+	background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+	.social-icons li.title {
+		display: block;
+		margin-right: 0;
+		font-weight: 600
+	}
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+
+.container {
+	padding: 60px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	left: 0;
+	top: 0;
+	width: 70%;
+	/* Full width */
+	height: 70%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgba(0, 0, 0, 0.4);
+	/* Black w/ opacity */
+	padding-top: 60px;
+	padding-left: 320px;
+	padding-right: 320px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-image: url('../static/img/card2.png');
+	background-repeat: no-repeat;
+	margin: 5% auto 15% auto;
+	/* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%;
+	/* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+	from {
+		-webkit-transform: scale(0)
+	}
+
+	to {
+		-webkit-transform: scale(1)
+	}
+}
+
+@keyframes animatezoom {
+	from {
+		transform: scale(0)
+	}
+
+	to {
+		transform: scale(1)
+	}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+
+	.cancelbtn {
+		width: 100%;
+	}
+}
+
+.site-footer {
+	background-color: #010927;
+	padding: 45px 0 20px;
+	margin-top: 10%;
+	font-size: 15px;
+	line-height: 24px;
+	color: #737373;
+}
+
+.site-footer hr {
+	border-top-color: #bbb;
+	opacity: 0.5
+}
+
+.site-footer hr.small {
+	margin: 20px 0
+}
+
+.site-footer h6 {
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	letter-spacing: 2px
+}
+
+.site-footer a {
+	color: #737373;
+}
+
+.site-footer a:hover {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+.footer-links {
+	padding-left: 0;
+	list-style: none
+}
+
+.footer-links li {
+	display: block
+}
+
+.footer-links a {
+	color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+	color: #3366cc;
+	text-decoration: none;
+}
+
+.footer-links.inline li {
+	display: inline-block
+}
+
+.site-footer .social-icons {
+	text-align: right
+}
+
+.site-footer .social-icons a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 6px;
+	margin-right: 0;
+	border-radius: 100%;
+	background-color: #33353d
+}
+
+.copyright-text {
+	margin: 0
+}
+
+@media (max-width:991px) {
+	.site-footer [class^=col-] {
+		margin-bottom: 30px
+	}
+}
+
+@media (max-width:767px) {
+	.site-footer {
+		padding-bottom: 0
+	}
+
+	.site-footer .copyright-text,
+	.site-footer .social-icons {
+		text-align: center
+	}
+}
+
+.social-icons {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none
+}
+
+.social-icons li {
+	display: inline-block;
+	margin-bottom: 4px
+}
+
+.social-icons li.title {
+	margin-right: 15px;
+	text-transform: uppercase;
+	color: #96a2b2;
+	font-weight: 700;
+	font-size: 13px
+}
+
+.social-icons a {
+	background-color: #eceeef;
+	color: #818a91;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 44px;
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	margin-right: 8px;
+	border-radius: 100%;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+	color: #fff;
+	background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+	line-height: 34px;
+	height: 34px;
+	width: 34px;
+	font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+	background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+	background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+	background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+	background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+	.social-icons li.title {
+		display: block;
+		margin-right: 0;
+		font-weight: 600
+	}
+}
+
+.button1 {
+	text-align: center;
+	padding-top: 7px;
+	position: static;
+	width: 150px;
+	box-shadow: none;
+	height: 40px;
+	left: 150px;
+	top: 320px;
+	border-left: 3px solid;
+	background: rgba(25, 217, 125, 0.9);
+	color: #FFFFFF;
+	border-color: rgba(25, 217, 125, 0.9);
+}
+
+
+.button2 {
+	text-align: center;
+	padding-top: 7px;
+	position: static;
+	width: 150px;
+	box-shadow: none;
+	height: 40px;
+	left: 350px;
+	top: 320px;
+	border-left: 3px solid;
+	background: rgba(25, 217, 125, 0.9);
+	color: #FFFFFF;
+	border-color: rgba(25, 217, 125, 0.9);
+}
+
+/* .button1 {
+	text-align: center;
+	padding-top: 7px;
+	position: absolute;
+	width: 150px;
+	box-shadow: none;
+	height: 40px;
+	left: 100px;
+	top: 650px;
+	border-left: 3px solid;
+	background: rgba(25, 217, 125, 0.9);
+	color: #FFFFFF;
+	border-color: rgba(25, 217, 125, 0.9);
+}
+
+
+.button2 {
+	text-align: center;
+	padding-top: 7px;
+	position: absolute;
+	width: 150px;
+	box-shadow: none;
+	height: 40px;
+	left: 300px;
+	top: 650px;
+	border-left: 3px solid;
+	background: rgba(25, 217, 125, 0.9);
+	color: #FFFFFF;
+	border-color: rgba(25, 217, 125, 0.9);
+} */
+
+
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.column1 {
+	margin-left: 20px;
+	float: left;
+	width: 48%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-left: 19px;
+	width: 100%;
+	border: 1px solid #E8E8E8;
+}
+
+th,
+td {
+	text-align: left;
+	padding: 12px;
+}
+
+.layered.box {
+	box-shadow:
+		0 1px 1px hsl(0deg 0% 0% / 0.075),
+		0 2px 2px hsl(0deg 0% 0% / 0.075),
+		0 4px 4px hsl(0deg 0% 0% / 0.075),
+		0 8px 8px hsl(0deg 0% 0% / 0.075),
+		0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+
+th {
+	font-weight: bold;
+	color: black;
+}
+
+tr {
+	border-bottom: 1px solid #E8E8E8;
+}
+

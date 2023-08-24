@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+{% block title %}Stockists{% endblock %}
+{% block content %}
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Stockists</title>
+  <link rel="stylesheet" href="../static/css/stockists.css">
+</head>
+
+<body style="background-color: #f0f0f0;">
+  <br><br><br><br>
+  <div id="wrap">
+    <div id="Mainpage">
+      <br><br>
+      <h1 style="display: block;
+         font-size: 25px;
+         color:#003300;
+         margin-top: 0.67em;
+         margin-bottom: 0.67em;
+         margin-left: 0;
+         margin-right: 0;
+         font-weight: bold;"> Follow a Mentor Trader </h1>
+      <p style="text-align: justify"> Follow profesional traders at the heat of the moment as you recieve instant
+        notifications that allow you to imitate these profesional traders leaving you less stress and more time to do
+        the things you love.
+      </p>
+      <br>
+      <p style="text-align: justify"> Look at key stats, Risk factor, average monthly gains and losses to get an idea on
+        these traders. One intriguing stat is the risk factor of these traders. Risk factors give an idea on how risky a
+        trader is with the stocks he invests in. Those with high risk factors will make more risky trades that may lead
+        to higher gains and losses. Follow these traders at your own risk.
+      </p>
+      <br>
+      <br><br><br>
+      <div class="Traders">
+        <div class="Trader">
+          <a>
+            <h3>Paul Tudor Jones</h3>
+            <img alt="Paul Tdor Jones" src="../static/img/paul_Tudor_Jones.jpeg" width="230" height="230">
+          </a>
+          <ul id="Info">
+            <li> 26% </li>
+            <li> | </li>
+            <li> $6B </li>
+            <div id="Rank">
+              <li>30%</li>
+            </div>
+          </ul>
+          <div id="Interact">
+            <div id="Followbtn">
+              <input type="checkbox" id="Follow" />
+              <label class="btn" for="Follow"><a>Follow</a></label>
+            </div>
+            <div id="Statsbtn">
+              <input type="checkbox" id="Stats" />
+              <label class="btn" for="Stats"><a>Stats</a></label>
+            </div>
+          </div>
+        </div>
+        <div class="Trader">
+          <a>
+            <h3>George Soros</h3>
+            <img alt="George Soros" src="../static/img/George_Soros.png" width="200" height="180">
+          </a>
+          <ul id="Info">
+            <li> 23.2% </li>
+            <li> | </li>
+            <li> $5.4B </li>
+            <div id="Rank">
+              <li>27%</li>
+            </div>
+          </ul>
+          <div id="Interact">
+            <div id="Followbtn">
+              <input type="checkbox" id="Follow" />
+              <label class="btn" for="Follow"><a>Follow</a></label>
+            </div>
+            <div id="Statsbtn">
+              <input type="checkbox" id="Stats" />
+              <label class="btn" for="Stats"><a>Stats</a></label>
+            </div>
+          </div>
+        </div>
+        <div class="Trader">
+          <a>
+            <h3>John Paulson</h3>
+            <img alt="John Paulson" src="../static/img/John_Paulson.jpg" width="200" height="200">
+          </a>
+          <ul id="Info">
+            <li> 21.8% </li>
+            <li> | </li>
+            <li> $4.8B </li>
+            <div id="Rank">
+              <li>25.7%</li>
+            </div>
+          </ul>
+          <div id="Interact">
+            <div id="Followbtn">
+              <input type="checkbox" id="Follow" />
+              <label class="btn" for="Follow"><a>Follow</a></label>
+            </div>
+            <div id="Statsbtn">
+              <input type="checkbox" id="Stats" />
+              <label class="btn" for="Stats"><a>Stats</a></label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br> <br><br>
+      <div id="Title_2">
+        <h1 style="display: block;
+            font-size: 25px;
+            color:#003300;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;"> Active Followed Traders </h1>
+      </div>
+      <table>
+        <tr>
+          <th> Name </th>
+          <th> Growth </th>
+          <th> Monthly Change </th>
+          <th> Risk Factor </th>
+        </tr>
+        <tr>
+          <td> <img class="img" src="../static/img/4964960.png"> Paul Tudor Jones </td>
+          <td> 26% </td>
+          <td> 6 Billion USD </td>
+          <td>
+            <p id="Rank2"> 30% </p>
+          </td>
+        </tr>
+        <tr>
+          <td> <img class="img" src="../static/img/4964960.png"> George Soros </td>
+          <td> 23.2% </td>
+          <td> 5.4 Billion USD </td>
+          <td>
+            <p id="Rank2"> 27% </p>
+          </td>
+        </tr>
+        <tr>
+          <td> <img class="img" src="../static/img/4964960.png"> John Paulson </td>
+          <td> 21.8% </td>
+          <td> 4.8 Billion USD </td>
+          <td>
+            <p id="Rank2"> 25.7% </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br><br><br><br>
+    <br><br><br><br>
+</body>
+
+</html>
+{% endblock %}

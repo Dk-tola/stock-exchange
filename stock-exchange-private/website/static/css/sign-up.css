@@ -1,0 +1,233 @@
+
+
+.header__container {
+	position: fixed;
+
+	top: 0px;
+	margin-right: 20px;
+	width: 100.9%
+}
+
+.menu-item menu-item-6994 {
+
+	padding-top: 20px;
+	left: 190px;
+}
+
+.menu-item-has-children {
+
+	padding-top: 20px;
+	left: 170px;
+}
+
+.menu-item-type-custom {
+	padding-top: 20px;
+	left: 170px;
+}
+
+.menu-item-object-custom {
+	padding-top: 20px;
+	left: 140px;
+}
+
+
+.logo-image {
+	position: fixed;
+	top: 0px;
+}
+
+.reg {
+
+	padding-left: 180.5px;
+
+
+}
+
+.log {
+	padding-top: 15px;
+	padding-left: -10px;
+	padding-right: 10px;
+
+}
+
+.site-navigation {
+
+	height: 20px;
+
+
+}
+
+
+body {
+	background-color: rgba(11, 20, 44, 1);
+}
+
+.fluid {
+	position: absolute;
+	width: 400px;
+	height: 989px;
+	left: 250px;
+	top: 234px;
+
+	background: rgba(255, 255, 255, 0.97);
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+
+.form-control1 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	top: 190px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	font-weight: bold;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+}
+
+.form-control2 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	top: 260px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	border-color: rgba(43, 114, 145, 0.20);
+	font-size: 13px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+}
+
+.form-control3 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	top: 330px;
+	font-size: 13px;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+}
+
+.form-control4 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	font-size: 13px;
+	top: 400px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+	box-shadow: 0px;
+}
+
+.form-control5 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	font-size: 13px;
+	top: 470px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+	box-shadow: 0px;
+}
+
+.form-control6 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	font-size: 13px;
+	top: 540px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+	box-shadow: 0px;
+}
+
+.form-control7 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	font-size: 13px;
+	top: 610px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+	box-shadow: 0px;
+}
+
+.form-control8 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	font-size: 13px;
+	top: 680px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+	box-shadow: 0px;
+}
+
+.form-control9 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	font-size: 13px;
+	top: 750px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+	box-shadow: 0px;
+}
+
+.form-control10 {
+	position: absolute;
+	width: 320px;
+	height: 50px;
+	left: 110px;
+	font-size: 13px;
+	top: 820px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	background: rgba(43, 114, 145, 0.33);
+	border-radius: 10px;
+	border-color: rgba(43, 114, 145, 0.20);
+	box-shadow: 0px;
+}

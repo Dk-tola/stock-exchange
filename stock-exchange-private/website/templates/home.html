@@ -1,0 +1,352 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <title>Home</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="../static/bully.svg">
+  <link rel="stylesheet" href="../static/css/home.css">
+  <link rel="stylesheet" href="../static/css/bootstrap.css">
+  <!--<link rel="stylesheet" href="../static/css/fonts.css">-->
+  <link rel="stylesheet" href="../static/css/homestyles.css">
+</head>
+<!--Main section-->
+<section
+  style="background:url('../static/img/Aktienzeichnung.jpg') center ; background-size:cover; width: 100%; height: 760px; position: absolute; top:10%;  left: 0px;">
+  <div>
+    <div class="row justify-content-center">
+      <div>
+        <div class="main-decorated-box text-center text-xl-left">
+          <h1 class="text-white text-xl-center wow slideInRight" data-wow-delay=".3s"><span
+              class="big font-weight-bold d-inline-flex"
+              style="position: absolute; right: 68%; font-size:22px; padding-top:15%; font-family: 'Arial' ">WELCOME TO
+              OUR WEBSITE</span>
+            <span class="biggest d-block d-xl-flex font-weight-bold"
+              style="position: absolute; right: 50%; left:10%; font-family: 'Arial'; margin-right:90px;font-size:40px; padding-top: 19%; text-align: left;">START
+              YOUR TRADING </span>
+            <span class="biggest d-block d-xl-flex font-weight-bold"
+              style="position: absolute; right: 50%; left:10%; font-family: 'Arial'; margin-right:90px;font-size:40px; padding-top: 23%; text-align: left;">
+              JOURNEY WITH US</span></span>
+          </h1>
+        </div>
+      </div>
+      <br><br><br><br>
+      <div class="text-center offset-top-75" style="padding-top: 500px;"><a
+          class="button-way-point d-inline-block text-center d-inline-flex flex-column justify-content-center"
+          style=" width:20; height:35%;" data-custom-scroll-to="about"><img
+            src="../static/img/arrows-2-green-top.png"></a></div>
+    </div>
+  </div>
+  <div class="decorate-layer">
+  </div>
+  </div>
+</section>
+<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br>
+<!--About-->
+<section class="section section-sm position-relative" id="about">
+  <div class="container">
+    <div class="row row-30">
+      <div class="col-lg-6">
+        <div class="block-decorate-img wow fadeInLeft" data-wow-delay=".2s"><img src="../static/img/1.png" alt=""
+            style=" margin-top: 70px;" width="500" height="300" />
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="block-sm offset-top-45">
+          <div class="section-name wow fadeInRight" style="font-family: 'Arial';  " data-wow-delay=".2s">About us</div>
+          <h3 class="wow fadeInLeft text-capitalize devider-bottom"
+            style="font-family: 'Arial'; text-align: justify; font-size: 30px; color: #32174d;" data-wow-delay=".3s">
+            <b>What We<span class="text-primary"> Do ?</b></span>
+          </h3>
+          <p style="font-family: 'Arial'; text-align: justify " class="offset-xl-40 wow fadeInUp" data-wow-delay=".4s">
+            Getting help with stock investment is our priority. We are happy when our clients are able to invest wisely
+            and
+            gain valuable experience. Bully Stock Exchange is the place where you come to build your future. We’ve
+            created the world’s largest and most trusted equities exchange, Our data, technology and expertise help
+            today’s leaders and tomorrow’s visionaries capitalize on opportunity in the public markets.
+          </p>
+          <div class="decor-text decor-text-2 wow fadeInUp" style="padding-right: 40px" data-wow-delay=".3s">About</div>
+          <p style="font-family: 'Arial'; text-align: justify "
+            class="default-letter-spacing font-weight-bold text-gray-dark wow fadeInUp" data-wow-delay=".4s">We are the
+            right place for you to invest and make profits of your investments
+          </p>
+          <a class="button-width-190 button-primary button-circle button-lg button offset-top-30" href="/sign-up">Begin
+            Trading</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<section class="section section-sm position-relative" id="about">
+  <div>
+    <p
+      style="background-color: #010927; width:1354px; padding: 12px;margin-left: 4%; margin-right: 76%; padding-left: 10px; color: white;">
+      MARKET DATA
+    </p>
+  </div>
+  <br>
+  <div class="row">
+    <div class="column">
+      <table>
+        <tr>
+          <th>Company Name</th>
+          <th>Open</th>
+          <th>High</th>
+          <th>Close</th>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Meta</td>
+          <td>{{FB_open}}</td>
+          <td>{{FB_high}}</td>
+          <td>{{FB_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Apple</td>
+          <td>{{Apple_open}}</td>
+          <td>{{Apple_high}}</td>
+          <td>{{Apple_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Amazon</td>
+          <td>{{Amazon_open}}</td>
+          <td>{{Amazon_high}}</td>
+          <td>{{Amazon_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Netflix</td>
+          <td>{{Netflix_open}}</td>
+          <td>{{Netflix_high}}</td>
+          <td>{{Netflix_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Google</td>
+          <td>{{Google_open}}</td>
+          <td>{{Google_high}}</td>
+          <td>{{Google_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Nvidia</td>
+          <td>{{Nvidia_open}}</td>
+          <td>{{Nvidia_high}}</td>
+          <td>{{Nvidia_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">AMD</td>
+          <td>{{AMD_open}}</td>
+          <td>{{AMD_high}}</td>
+          <td>{{AMD_close}}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="column1">
+      <table>
+        <tr>
+          <th>Company Name</th>
+          <th>Open</th>
+          <th>High</th>
+          <th>Close</th>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Visa</td>
+          <td>{{Visa_open}}</td>
+          <td>{{Visa_high}}</td>
+          <td>{{Visa_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">MasterCard</td>
+          <td>{{Mastercard_open}}</td>
+          <td>{{Mastercard_high}}</td>
+          <td>{{Mastercard_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Twitter</td>
+          <td>{{Twitter_open}}</td>
+          <td>{{Twitter_high}}</td>
+          <td>{{Twitter_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Tesla</td>
+          <td>{{Tesla_open}}</td>
+          <td>{{Tesla_high}}</td>
+          <td>{{Tesla_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">JP Morgan</td>
+          <td>{{JP_Morgan_open}}</td>
+          <td>{{JP_Morgan_high}}</td>
+          <td>{{JP_Morgan_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Walmart</td>
+          <td>{{Walmart_open}}</td>
+          <td>{{Walmart_high}}</td>
+          <td>{{Walmart_close}}</td>
+        </tr>
+        <tr>
+          <td style="font-weight: bold;">Coca-Cola</td>
+          <td>{{Coca_Cola_open}}</td>
+          <td>{{Coca_Cola_high}}</td>
+          <td>{{Coca_Cola_close}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</section>
+<br>
+</section>
+<br>
+<form class="f" method="POST">
+  <div class="container1">
+    <b>
+      <h2 style="font-size: 25px; color: white; text-align: center;">Subscribe to our Newsletter</h2>
+    </b>
+    <h3 style="font-size: 15px; color: white; text-align: center;">Get the most new offers and daily notification of our
+      services
+    </h3>
+  </div>
+  <div class="container2" style="background-color:#162252 ;">
+    <input type="email" placeholder="Email address" name="email" class="email" required>
+    <button type="submit" id="submit" class="submitt">Submit</button>
+  </div>
+  {% for message in get_flashed_messages() %}
+  <div class="alert-error">{{ message }}</div>
+  {% endfor %}
+</form>
+<!--Features-->
+<section style="padding-top:10%;" class="section custom-section position-relative section-md">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-7 col-lg-7 col-12">
+        <div class="section-name wow fadeInRight">our features</div>
+        <b>
+          <h3 class="text-capitalize devider-left wow fadeInLeft" data-wow-delay=".2s"
+            style="font-family: 'Arial'; text-align: justify; font-size: 30px; color: #32174d;">Why <span
+              class="text-primary"> Choose us ?</span></h3>
+        </b>
+        <p>We have a lot to offer to our investors. Here are some reasons why we are the best choice for you.</p>
+        <div class="row row-15">
+          <div class="col-xl-6 wow fadeInUp" data-wow-delay=".2s">
+            <div class="box-default">
+              <div class="box-default-title"><b>Invest any amount</b></div>
+              <p class="box-default-description">Choose how much you want to invest, change your investment amount at
+                the moment. Do not hesitate to build your trading experience
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="box-default">
+              <div class="box-default-title"><b>24/7 Contact to us</b></div>
+              <p class="box-default-description">We are available to use to ask questions and raise concerns at any time
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 wow fadeInUp" data-wow-delay=".4s">
+            <div class="box-default">
+              <div class="box-default-title"><b>Build a balanced portfolio</b></div>
+              <p class="box-default-description">Customize your portfiolo with different views of the graphs of
+                investments and create a unique wishlist.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-6 wow fadeInUp" data-wow-delay=".5s">
+            <div class="box-default">
+              <div class="box-default-title"><b>Real-time stock trading</b></div>
+              <p class="box-default-description">Trades placed at market hours are execure at the time and you will
+                always know the share prices
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="padding-top:10%;" class="image-left-side wow slideInRight" data-wow-delay=".5s"><img
+      src="../static/img/finance-2-730x495.jpg" style="width:456px; height:410px" />
+  </div>
+  <div class="decor-text decor-text-2 wow fadeInUp" data-wow-delay=".3s">features</div>
+</section>
+</div>
+<br><br><br><br>
+<!--Pricing-->
+<section class="section section-md bg-xs-overlay" style="background-color: #F0F0F0;">
+  <div class="container">
+    <div class="row row-50 justify-content-center">
+      <div class="col-12 text-center col-md-10 col-lg-8">
+        <div class="section-name wow fadeInRight" data-wow-delay=".2s" style="font-family: Arial;">Quick links</div>
+        <h3 class="wow fadeInLeft text-capitalize" data-wow-delay=".3s" style="font-size: 35px; font-family: Arial;">
+          Find more about our us<span class="text-primary"> explore more</span>
+        </h3>
+        <p>You can read about the news and insights and see your portfolio, manage it and have the best experience you
+          ever had in an investing website.
+        </p>
+      </div>
+    </div>
+    <div class="row row-30 justify-content-center">
+      <div class="col-xl-4 col-md-6 col-12 wow fadeInDown" data-wow-delay=".3s">
+        <div class="pricing-box bg-gray-dark" style="width: 350px; margin-left: 240px;">
+          <div class="pricing-box-tittle"><img src="../static/img/3787303.png" style="height: 50px; width: 50px;"></div>
+          <p>News and Insights</p>
+          <hr />
+          <p>Financial Advisory</p>
+          <a class="button button-190 button-circle btn-primary-rounded" href="/newsandinsights">get
+            started</a>
+        </div>
+      </div>
+      <div class="col-xl-4 col-md-6 col-12 wow fadeInUp" data-wow-delay=".4s">
+        <div class="pricing-box bg-gray-primary" style="width: 350px; margin-left: 40px;">
+          <div class="pricing-box-tittle"><img src="../static/img/Ellipse 13.png" style="height: 50px; width: 50px;">
+          </div>
+          <p>Maintain your portfolio</p>
+          <hr />
+          <p>Strategic Investment</p>
+          <a class="button button-190 button-circle btn-rounded-outline" href="/viewportfolio">get started</a>
+        </div>
+      </div>
+    </div>
+</section>
+<button class="open-button" onclick="openForm()"><img src="../static/img/bot-removebg-preview.png"
+    style="height: 100px; width: 90px; position: absolute; bottom: -3px; right: 5px; "></button>
+<div class="chat-popup" id="container-chat-bot" class="container-chat-bot">
+  <div class="bg-chat">
+    <button type="button" class="btn cancel" onclick="closeForm()"
+      style=" background-color: transparent; border-color: transparent; color: white; font-weight: bold; font-size: 20px; position: absolute; bottom:410px; left: 86%; width: 33px;top:4px;">X</button>
+    <h23 style="height:20%;width: 50%; position: absolute; bottom: -3px; right: 130px; top:15px;  color: white;">CHATBOT
+    </h23>
+    <div id="chat" class="chat">
+      <div id="messages" class="messages"></div>
+      <input style="padding: 15px; 
+               position: absolute;
+               top: 400px;
+               width: 100%;
+               left: -90px;
+               border-radius: none;
+               border-color: transparent;
+               " id="input" type="text" placeholder="Say hi...." autocomplete="off" />
+    </div>
+  </div>
+</div>
+<script src="../static/js-home/core.min.js"></script>
+<script src="../static/js-home/script.js"></script>
+<!--coded by Drel-->
+<script>
+  function openForm() {
+    document.getElementById("container-chat-bot").style.display = "block";
+  }
+
+  function closeForm() {
+    document.getElementById("container-chat-bot").style.display = "none";
+  }
+</script>
+<script type="text/javascript" src="../static/js/index.js"></script>
+<script type="text/javascript" src="../static/js/response.js"></script>
+{% endblock %}

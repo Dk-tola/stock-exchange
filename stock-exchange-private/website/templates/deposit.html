@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Deposit Money{% endblock %}
+{% block content %}
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <meta charset="utf-8" />
+  <title>Deposite Money</title>
+  <link rel="stylesheet" href="../static/css/deposit.css" />
+</head>
+<br /><br /><br /><br /><br /><br />
+<img src="../static/img/deposit.jpg" style="
+   position: absolute;
+   width: 50%;
+   /* width: 715px; */
+   height: 88.7%;
+   /* height: 729px; */
+   top: 100px;
+   left: -1px;
+   z-index: -1;
+   " />
+
+<body>
+
+  <div class="form">
+    <h1 class="text-center">Deposit Form</h1>
+    <!-- Progress bar -->
+    <form action="" method="POST">
+      <div class="form-step form-step-active">
+        <div class="input-group">
+          <label for="username">Amount</label>
+          <input type="text" name="amount" placeholder="Amount" />
+        </div>
+        <div class="input-group">
+          <label for="phone">Enter CVV Code</label>
+          <input type="text" name="CVV" placeholder="CVV" />
+        </div>
+        <div class="">
+          <input class="btn" type="submit" name="deposit" value="Deposit" />
+        </div>
+      </div>
+    </form>
+  </div>
+  {% endblock %}
+</body>
