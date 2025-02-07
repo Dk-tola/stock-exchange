@@ -23,7 +23,7 @@ def authentication(email):
     port = 587  # For starttls
     sender_email = "group16stock@Outlook.com"
     receiver_email = email
-    password = "YashMVP16"
+    password = ""
 
     # Create a secure SSL context
     context = ssl.create_default_context()
